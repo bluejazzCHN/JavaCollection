@@ -3,7 +3,7 @@
  * 作者：bluejazzchn
  *
  * */
-package code.bluejazzchn;
+package code.bluejazzchn.arraylist;
 
 import java.util.ArrayList;
 
