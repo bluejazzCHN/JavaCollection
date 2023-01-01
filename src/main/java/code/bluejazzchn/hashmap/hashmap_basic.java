@@ -37,5 +37,10 @@ public class hashmap_basic {
 
         //如果Key不存在，则返回null
         System.out.println(studentHashMap.get(110));
+
+        //获得hashmap的所有的key和value
+        System.out.println("Keys = "+studentHashMap.keySet()); //Keys = [102, 103, 104]
+        System.out.println("Values = "+studentHashMap.values()); //Values = [小王, 小张, 小李]
+
     }
 }
