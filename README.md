@@ -5,3 +5,4 @@ Demonstrates the basic use of the Java Collection through an example.
   - arraylist_basic.java
   - arraylist_generic.java
 - HashMap demo: 
+  - hashmap_basic.java
