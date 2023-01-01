@@ -29,9 +29,12 @@ public class hashmap_basic {
         System.out.println("-------------------------");
         System.out.println(studentHashMap1);
 
-        //如何通过Key获得Value
-        System.out.println(studentHashMap.get(102));
+        //通过containkey方法检查Key是否存在，通过get方法获得key对应的Value
+        if (studentHashMap.containsKey(102)) {
+            System.out.println(studentHashMap.get(102));
+        }
         System.out.println(studentHashMap1.get("小王"));
+
         //如果Key不存在，则返回null
         System.out.println(studentHashMap.get(110));
     }
